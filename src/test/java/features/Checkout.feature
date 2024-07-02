@@ -29,7 +29,7 @@ Examples:
 
 
 @PlaceOrder4
-Scenario inline: Search Experience for product search in both home and Offers page
+Scenario inlines: Search Experience for product search in both home and Offers page
 
 Given User is on GreenCart Landing page
 When user searched with Shortname <Name> and extracted actual name of product
