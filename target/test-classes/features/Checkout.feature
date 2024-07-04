@@ -27,8 +27,13 @@ Examples:
 | Name  |
 | Tom 	|
 
+<<<<<<< HEAD
 @PlaceOrder3
 Scenario: Search Experience for product search in both home and Offers page
+=======
+@PlaceOrder4
+Scenario Inline: Search Experience for product search in both home and Offers page
+>>>>>>> develop
 
 Given User is on GreenCart Landing page
 When user searched with Shortname <Name> and extracted actual name of product
