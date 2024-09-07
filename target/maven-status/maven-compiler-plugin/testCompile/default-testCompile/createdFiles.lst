@@ -1,0 +1,12 @@
+pageObjects/LandingPage.class
+stepDefinitions/CheckoutPageStepDefinition.class
+pageObjects/CheckoutPage.class
+pageObjects/PageObjectManager.class
+stepDefinitions/OfferPageStepDefinition.class
+stepDefinitions/LandingPageStepDefinition.class
+utils/TestContextSetup.class
+utils/GenericUtils.class
+utils/TestBase.class
+stepDefinitions/Hooks.class
+cucumberOptions/JunitTestRunnerTest.class
+pageObjects/OffersPage.class
