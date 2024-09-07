@@ -25,7 +25,12 @@ TestContextSetup testContextSetup;
 	@After
 	public void AfterScenario() throws IOException
 	{
-		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		testContextSetup.testBase.WebDriverManager().quit();
 		
 	}
