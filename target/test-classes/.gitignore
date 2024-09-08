@@ -1,2 +1,4 @@
-/utils/
+/cucumberOptions/
+/pageObjects/
 /stepDefinitions/
+/utils/
